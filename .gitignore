@@ -1,0 +1,22 @@
+# Jangan pernah ikut terkirim: berisi API key asli
+.env
+
+# Cache index vektor (dibuat ulang otomatis saat aplikasi dijalankan)
+vectorstore/
+
+# Berkas kerja pribadi
+Panduan_Tugas_Chatbot.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node / generated build artifacts
+node_modules/
+.codex_slide_build/
+
+# Render/debug exports for presentation QA
+*.inspect.ndjson
